@@ -1,0 +1,22 @@
+{
+  "name": "dealbot",
+  "version": "1.0.0",
+  "description": "Surveille Vinted et les alertes e-mail Leboncoin, estime la marge nette de revente et notifie sur Discord",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20.6" },
+  "keywords": ["vinted", "leboncoin", "discord", "reselling", "deals", "bot"],
+  "scripts": {
+    "start": "node --env-file=.env index.mjs",
+    "dry": "node --env-file=.env index.mjs --dry",
+    "dump": "node --env-file=.env index.mjs --dump",
+    "stats": "node stats.mjs",
+    "test": "node score.mjs"
+  },
+  "dependencies": {
+    "@googlarz/vinted-client": "1.6.3",
+    "imapflow": "^2.8.0",
+    "mailparser": "^3.12.0"
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "query": "sendra",
+    "priceMax": 60
+  },
+  {
+    "query": "tony lama",
+    "priceMax": 55
+  },
+  {
+    "query": "justin boots",
+    "priceMax": 55
+  },
+  {
+    "query": "durango bottes",
+    "priceMax": 45
+  },
+  {
+    "query": "ariat bottes",
+    "priceMax": 45
+  },
+  {
+    "query": "lucchese boots",
+    "priceMax": 60
+  },
+  {
+    "query": "pendleton",
+    "priceMax": 25
+  },
+  {
+    "query": "barbour",
+    "priceMax": 50
+  },
+  {
+    "query": "stetson",
+    "priceMax": 40
+  },
+  {
+    "query": "resistol",
+    "priceMax": 40
+  },
+  {
+    "query": "dualsense",
+    "priceMax": 25
+  },
+  {
+    "query": "joycon nintendo switch",
+    "priceMax": 30
+  },
+  {
+    "query": "dock switch",
+    "priceMax": 20
+  }
+]
