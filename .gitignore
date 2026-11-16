@@ -1,0 +1,8 @@
+# Secrets et configuration personnelle : ne jamais publier
+.env
+vinted-searches.json
+# Données générées par le programme
+state.json
+log.csv
+sample.html
+node_modules/
