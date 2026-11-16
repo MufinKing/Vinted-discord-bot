@@ -158,14 +158,6 @@ Surtout, Vinted et Leboncoin se protègent contre le trafic automatisé et les a
 
 Un portage partiel (la partie e-mail seulement, sur Cloudflare Email Routing ou Google Apps Script) est envisageable : voir la feuille de route.
 
-## Feuille de route
-
-- [ ] Version e-mail seule en Worker / Apps Script (Vinted resterait sur une machine locale)
-- [ ] Catégories dans un fichier de configuration plutôt que dans le code
-- [ ] Étalonnage des prix à partir d'un fichier de ventes réelles
-- [ ] Prise en charge d'autres formats d'alerte e-mail (à vérifier sur des mails réels)
-- [ ] README en anglais
-
 ## Limites connues
 
 - Le lecteur de mails n'est validé que sur des **exemples** de mails Leboncoin ; son comportement sur tous les formats réels n'est pas garanti.
